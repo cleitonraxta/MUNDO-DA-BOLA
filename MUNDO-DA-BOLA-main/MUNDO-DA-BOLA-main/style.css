@@ -1,0 +1,36 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color:rgb(64, 96, 201);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0; 
+    margin: 16px 0;
+}
+.cabecalhoImagem{
+    width: 20%;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+li{
+   color:rgb(0, 0, 0); 
+   display: flex;
+   justify-content: space-around;
+}
+.cabecalholistaitem{
+    display: inline-block;
+    margin: 24 16px;
+    padding: 24 16px;
+}
+.sobreImagem {width: 27%
+}
+.sobre{background-image: linear-gradient(#5a65a5 , #FFFF);
+display: flex;
+}
