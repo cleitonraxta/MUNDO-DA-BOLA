@@ -1,12 +1,15 @@
 *{
-    margin: 0 16px;
-    padding: 24px 0;
+    margin: 0 ;
+    padding: 0;
 }
 
 .cabecalho{
-    background-color:rgb(52, 114, 52);
-    
-
+    background-color:rgb(64, 96, 201);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0; 
+    margin: 16px 0;
 }
 .cabecalhoImagem{
     width: 20%;
@@ -14,7 +17,7 @@
 }
 
 body{
-    background-color: rgb(26, 163, 26);
+    background-color: rgb(255, 255, 255);
 }
 li{
    color:rgb(0, 0, 0); 
@@ -23,4 +26,21 @@ li{
 }
 .cabecalholistaitem{
     display: inline-block;
+    margin: 24 16px;
+    padding: 24 16px;
+}
+.sobre{background-image: linear-gradient(#5a65a5 , #FFFF);
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 12px;
+}
+.sobreImagem {width: 50%
+}
+
+.sobreConteudo{
+    width: 90%;
+}
+.membroImagem{
+    width: 120px;
 }
